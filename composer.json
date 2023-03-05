@@ -1,0 +1,15 @@
+{
+    "name": "stenquidelleur/td-etudiant",
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "Classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "StenQuidelleur",
+            "email": "sten.quidelleur@outlook.fr"
+        }
+    ],
+    "require": {}
+}
