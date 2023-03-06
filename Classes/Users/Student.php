@@ -7,7 +7,7 @@ use Classes\AuthenticateInterface;
 
 class Student extends AbstractUser implements AuthenticateInterface
 {
-    const TYPE_OF_USER = 'Etudiant';
+    public const TYPE_OF_USER = 'Etudiant';
 
     /**
      * @var string

@@ -19,19 +19,19 @@ TD sur la programmation orientée objet en PHP -> manipuler les concepts de la P
 ## Structure :
 
 Créez une classe abstraite "AbstactUser" avec les propriétés suivantes : nom, prénom et date de naissance (format: 1990-01-01). 
-Implémentez une méthode constructeur qui prend en paramètres les valeurs initiales de ces propriétés.
-Implémentez également une méthode abstraite findLogin().
+Implémenter une méthode constructeur qui prend en paramètres les valeurs initiales de ces propriétés.
+Implémenter également une méthode abstraite findLogin().
 
 
 Créer une interface "AuthenticateInterface" avec une méthode getIdentification() qui retourne l'identifiant du user sous forme d'une chaîne de caractères et une méthode getPassword() qui retourne le mot de passe du user sous forme d'une chaîne de caractères.
 
 
-Dans un repertoire Users créez deux classes (qui héritent de "AbstactUser" et qui implémente "AuthenticateInterface") : "Student" et "Professor". 
+Dans un repertoire Users créez deux classes : "Student" et "Professor". (qui héritent de "AbstactUser" et qui implémente "AuthenticateInterface")
 La classe Student aura une propriété supplémentaire "numéro étudiant" 
 La classe Professor aura une propriété supplémentaire "spécialité". 
 Initialise également une constante qui identifie le type de d'utilisateur (Etudiant/Professeur).
 
-Ajoutez des méthodes de getter et de setter pour chaque propriété de chaque classe. 
+Ajouter des méthodes de getter et de setter pour chaque propriété de chaque classe. 
 
 Pour les étudiants, l'identifiant sera leur nom et prénom concaténé (sans espace et en minuscule) et le mot de passe sera leur numéro étudiant. 
 Pour les professeurs, l'identifiant sera leur nom et prénom (séparés d'un tiret et en majuscule) et leur mot de passe leur spécialité.
@@ -57,7 +57,7 @@ Instancier un étudiant et un professeur.
     Pour l'étudiant : 'Je suis un (type de user) qui se nomme (nom) (prénom) et j'ai (age).'
     Pour le professeur : 'Je suis un (type de user) de (spécialité) qui se nomme (nom) (prénom).'
 
-- Appeler la methode login pour chacun des user et afficher :
+- Appeler la methode login pour chacun des users et afficher :
     un retour non valide de leur connexion.
     un message leur indiquant les bons identifiants (findLogin).
     un retour valide de la connexion.

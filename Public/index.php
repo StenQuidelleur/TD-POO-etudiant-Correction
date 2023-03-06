@@ -21,7 +21,7 @@ echo 'Je suis un ' . Professor::TYPE_OF_USER . ' de ' . $professeur->getSpeciali
 echo '<br>';
 
 /*
-    Appeler la methode login pour chacun des user et afficher :
+    Appeler la methode login pour chacun des users et afficher :
     un retour non valide de leur connexion.
     un message leur indiquant les bons identifiants (findLogin).
     un retour valide de la connexion.
