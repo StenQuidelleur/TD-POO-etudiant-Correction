@@ -20,7 +20,7 @@ TD sur la programmation orientée objet en PHP -> manipuler les concepts de la P
 
 Créez une classe abstraite "AbstactUser" avec les propriétés suivantes : nom, prénom et date de naissance (format: 1990-01-01). 
 Implémenter une méthode constructeur qui prend en paramètres les valeurs initiales de ces propriétés.
-Implémenter également une méthode abstraite findLogin().
+Implémenter les getters & setters des 3 propriétés et ajouter une méthode abstraite findLogin().
 
 
 Créer une interface "AuthenticateInterface" avec une méthode getIdentification() qui retourne l'identifiant du user sous forme d'une chaîne de caractères et une méthode getPassword() qui retourne le mot de passe du user sous forme d'une chaîne de caractères.
